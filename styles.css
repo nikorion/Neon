@@ -1,48 +1,50 @@
 @font-face {
-    font-family: "LasEnter";
-    src: url(LasEnter.ttf);
+  font-family: "LasEnter";
+  src: url(assets/fontes/LasEnter.ttf);
 }
 
-* { margin: 0; padding: 0 }
-
-body { background-color: #000 }
-
-#container{ width:800px; margin:auto }
-
-p{ text-align:center; font-size:7em; margin:20px 0 20px 0 }
-
-a:hover{
-    color:white; text-decoration: none;
-    animation: neon 1s 0.05s ease-in-out infinite alternate;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-a{
-    font-family: "LasEnter"; font-weight:bold;
-    color:#FF2255; text-decoration: none;
-    animation:none;
-    transition: color 0.4s;
+body {
+  background-color: #000;
+}
+
+#container {
+  width: 800px;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  font-size: 7em;
+  margin: 20px 0 20px 0;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  animation: neon 1s 0.05s ease-in-out infinite alternate;
+}
+
+a {
+  font-family: "LasEnter";
+  font-weight: bold;
+  color: #ff2255;
+  text-decoration: none;
+  animation: none;
+  transition: color 0.4s;
 }
 
 @keyframes neon {
   from {
-    text-shadow: 0 0 5px #fff,
-               0 0 10px #fff,
-               0 0 20px  #fff,
-               0 0 30px  #fff,
-               0 0 40px  #FF1177,
-               0 0 70px  #FF1177,
-               0 0 80px  #FF1177,
-               0 0 100px #FF1177;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff,
+      0 0 40px #ff1177, 0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177;
   }
   to {
-    text-shadow: 0 0 0px #fff,
-               0 0 10px #fff,
-               0 0 15px #fff,
-               0 0 20px #fff,
-               0 0 35px #FF1177,
-               0 0 40px #FF1177,
-               0 0 50px #FF1177,
-               0 0 75px #FF1177;
+    text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff,
+      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
   }
 }
