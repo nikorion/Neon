@@ -1,6 +1,6 @@
 # Néon
 
-Effet néon.
+Effet néon
 
 ## Voir sur CodePen
 
